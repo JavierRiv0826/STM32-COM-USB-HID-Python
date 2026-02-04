@@ -130,11 +130,17 @@ Edit in usbd_desc.c:
 /Inc → Header files
 
 /Src → Main application source files
+
 /Drivers → HAL drivers provided by STM32CubeMX
+
 /Middlewares → USB descriptors & logic
+
 /USB_DEVICE →  USB Parameter Settings
+
 /Python Tool →  Python HID tool script
+
 /STM32F103C6.ioc → CubeMX project file
+
 README.md → Project description
 
 ---
