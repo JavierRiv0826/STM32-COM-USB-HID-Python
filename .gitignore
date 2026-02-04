@@ -1,0 +1,15 @@
+# STM32CubeIDE build folder
+Debug/
+Release/
+
+# Eclipse/IDE metadata
+.settings/
+.metadata/
+
+# Backup files
+*.bak
+*.tmp
+
+# OS junk
+Thumbs.db
+.DS_Store
