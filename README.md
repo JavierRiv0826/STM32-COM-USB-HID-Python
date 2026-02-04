@@ -11,10 +11,10 @@ This is a vendor-defined HID device (not mouse/keyboard), so it is safe to conne
 ## 🚀 Features
 
 - ✔ HID IN report (device → PC):  2 Byte counter
--- ✔ Periodic Tick: Sends "Tick" message every 1 second as a simple timer example. (1st IN byte)
--- ✔ Implemented button input. (2nd IN byte)
+- ✔ Periodic Tick: Sends "Tick" message every 1 second as a simple timer example. (1st IN byte)
+- ✔ Implemented button input. (2nd IN byte)
 - ✔ HID OUT report (PC → device): 1‑byte command
--- ✔ LED control via HID OUT report.
+- ✔ LED control via HID OUT report.
 - ✔ PC communication using Python + hidapi
 
 ## 📦 USB Descriptor Summary
@@ -126,7 +126,9 @@ Edit in usbd_desc.c:
 
 ## 📂 Project Structure
 /Core
+
 /Inc → Header files
+
 /Src → Main application source files
 /Drivers → HAL drivers provided by STM32CubeMX
 /Middlewares → USB descriptors & logic
